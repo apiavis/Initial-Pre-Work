@@ -1,0 +1,23 @@
+/*Author: Alicia Piavis
+  Title: Override Styles in Subsequent CSS
+  Date: 4/9/2019
+  Project: Techtonic Pre-Work
+  Summary: I learned how to overide a style rule when there are multiple classes
+    declared inside the style section at the top of the page.  The second class
+    declaration will always override the first.*/
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
