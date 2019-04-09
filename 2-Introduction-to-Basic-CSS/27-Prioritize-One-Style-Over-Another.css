@@ -1,0 +1,20 @@
+/*Author: Alicia Piavis
+  Title: Prioritize One Style Over Another
+  Date: 4/9/2019
+  Project: Techtonic Pre-Work
+  Summary: I learned how to overide a style rule from the body element by
+    applying a class to the element whose style you want to change. The class
+    has the style desired for that particular element.*/
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+  .pink-text {
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
