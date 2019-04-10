@@ -1,0 +1,29 @@
+/*Author: Alicia Piavis
+  Title: Use Abbreviated Hex Code
+  Date: 4/9/2019
+  Project: Techtonic Pre-Work
+  Summary: I learned how to use abbreviated hex code. Abbreviated hex code
+    uses three digits- one for red, one for green, and one for blue.*/
+
+<style>
+  .red-text {
+    color: #F00;
+  }
+  .fuchsia-text {
+    color: #F0F;
+  }
+  .cyan-text {
+    color: #0FF;
+  }
+  .green-text {
+    color: #0F0;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="fuchsia-text">I am fuchsia!</h1>
+
+<h1 class="cyan-text">I am cyan!</h1>
+
+<h1 class="green-text">I am green!</h1>
