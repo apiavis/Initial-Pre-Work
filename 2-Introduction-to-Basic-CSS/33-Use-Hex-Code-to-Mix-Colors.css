@@ -1,0 +1,31 @@
+/*Author: Alicia Piavis
+  Title: Use Hex Code to Mix Colors
+  Date: 4/9/2019
+  Project: Techtonic Pre-Work
+  Summary: I learned how to use hex code to mix colors.  Hex
+    code uses six digits. The first two are values of red. The next two are
+    values of green.  The last two are values of blue.  When different amounts
+    of red, green, and blue are combined, they create different colors.*/
+
+<style>
+  .red-text {
+    color: #FF0000;
+  }
+  .green-text {
+    color: #00FF00;
+  }
+  .dodger-blue-text {
+    color: #1E90FF;
+  }
+  .orange-text {
+    color: #FFA500;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+<h1 class="dodger-blue-text">I am dodger blue!</h1>
+
+<h1 class="orange-text">I am orange!</h1>
