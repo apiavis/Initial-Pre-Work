@@ -1,0 +1,32 @@
+/*Author: Alicia Piavis
+  Title: Use the flex-shrink Property to Shrink Items
+  Date: 4/10/2019
+  Project: Techtonic Pre-Work
+  Summary: I learned how to use the flex-shrink property to shrink items
+     if the flex container is too small. The higher the value of flex-shrink,
+     the more that item will shrink compared to other items in the same container.*/
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 200px;
+    flex-shrink: 1;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 100%;
+    height: 200px;
+    flex-shrink: 2;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
