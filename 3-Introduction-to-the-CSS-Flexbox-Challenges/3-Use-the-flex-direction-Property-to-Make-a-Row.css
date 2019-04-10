@@ -1,0 +1,31 @@
+/*Author: Alicia Piavis
+  Title: Use the Flex-Direction Property to Make a Row
+  Date: 4/9/2019
+  Project: Techtonic Pre-Work
+  Summary: I learned how to use the flex-direction property to arrange children
+     of an element into rows or columns, and I learned that the default for
+     flex-direction is row.*/
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+    flex-direction: row-reverse;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
