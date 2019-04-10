@@ -1,0 +1,12 @@
+/*Author: Alicia Piavis
+  Title: Use RGB Values to Color Elements
+  Date: 4/9/2019
+  Project: Techtonic Pre-Work
+  Summary: I learned how to use RGB values to represent colors in CSS. The
+    brightness of a color is specified using a number between 0 and 255.*/
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>
