@@ -1,0 +1,37 @@
+/*Author: Alicia Piavis
+  Title: Use CSS Grid Units to Change the Size of Columns and Rows
+  Date: 4/10/2019
+  Project: Techtonic Pre-Work
+  Summary: I learned how to change the size of columns and rows in a grid
+     using values other than pixels. Other units include fr (fraction of the
+     available space), auto (sets column or row to width of content automatically),
+     and % (percent width of the container).*/
+
+<style>
+  .d1{background:LightSkyBlue;}
+  .d2{background:LightSalmon;}
+  .d3{background:PaleTurquoise;}
+  .d4{background:LightPink;}
+  .d5{background:PaleGreen;}
+
+  .container {
+    font-size: 40px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    /* modify the code below this line */
+
+    grid-template-columns: 1fr 100px 2fr;
+
+    /* modify the code above this line */
+    grid-template-rows: 50px 50px;
+  }
+</style>
+
+<div class="container">
+  <div class="d1">1</div>
+  <div class="d2">2</div>
+  <div class="d3">3</div>
+  <div class="d4">4</div>
+  <div class="d5">5</div>
+</div>
