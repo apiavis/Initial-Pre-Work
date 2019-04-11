@@ -1,0 +1,37 @@
+/*Author: Alicia Piavis
+  Title: Add Gaps Faster with grid-gap
+  Date: 4/10/2019
+  Project: Techtonic Pre-Work
+  Summary: I learned how to create gaps between rows and columns in a grid
+     at the same time using the grid-gap property. If the property has one value,
+     it creates gaps of that size between all rows and columns. If it has two
+     values, the first value is the gap size for rows, the second is for columns.*/
+
+<style>
+  .d1{background:LightSkyBlue;}
+  .d2{background:LightSalmon;}
+  .d3{background:PaleTurquoise;}
+  .d4{background:LightPink;}
+  .d5{background:PaleGreen;}
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* add your code below this line */
+    grid-gap: 10px 20px;
+
+    /* add your code above this line */
+  }
+</style>
+<div class="container">
+  <div class="d1">1</div>
+  <div class="d2">2</div>
+  <div class="d3">3</div>
+  <div class="d4">4</div>
+  <div class="d5">5</div>
+</div>
