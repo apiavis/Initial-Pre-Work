@@ -1,0 +1,17 @@
+/*Author: Alicia Piavis
+  Title: Iterate with JS Do...While Loops
+  Date: 4/14/2019
+  Project: Techtonic Pre-Work
+  Summary: I learned how to use a JS Do...While loop to ensure that code inside
+    of a loop will execute at least once before the program exits the loop.*/
+
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+do {
+  myArray.push(i);
+  i++;
+}
+while (i < 5);
